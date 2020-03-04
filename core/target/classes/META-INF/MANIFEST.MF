@@ -4,7 +4,7 @@ OpenIDE-Module-Localizing-Bundle: surgo/celldefender/core/Bundle.prope
  rties
 OpenIDE-Module-Specification-Version: 1.0
 OpenIDE-Module-Implementation-Version: 1.0
-OpenIDE-Module-Build-Version: 202003040001
+OpenIDE-Module-Build-Version: 202003041157
 OpenIDE-Module: surgo.celldefender.core
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
