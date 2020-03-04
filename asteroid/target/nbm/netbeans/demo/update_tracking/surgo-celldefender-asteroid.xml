@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="surgo.celldefender.asteroid">
+    <module_version install_time="1583280099935" last="true" origin="installer" specification_version="1.0">
+        <file crc="313840687" name="config/Modules/surgo-celldefender-asteroid.xml"/>
+        <file crc="2435400087" name="modules/surgo-celldefender-asteroid.jar"/>
+    </module_version>
+</module>

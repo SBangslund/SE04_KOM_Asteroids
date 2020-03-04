@@ -1,0 +1,8 @@
+surgo\celldefender\core\Installer.class
+META-INF\services\surgo.celldefender.core.interfaces.IRenderNodeSystem
+surgo\celldefender\core\interfaces\IRenderNodeSystem.class
+surgo\celldefender\core\nodes\RenderNode.class
+surgo\celldefender\core\systems\RenderSystem.class
+META-INF\services\surgo.celldefender.common.nodes.INode
+surgo\celldefender\core\GameInputProcessor.class
+surgo\celldefender\core\Game.class

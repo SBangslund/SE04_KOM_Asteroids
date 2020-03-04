@@ -1,0 +1,2 @@
+META-INF\services\surgo.celldefender.common.contracts.INodePlugin
+surgo\celldefender\asteroid\AsteroidPlugin.class

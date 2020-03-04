@@ -1,0 +1,6 @@
+META-INF\services\surgo.celldefender.common.contracts.INodeSystem
+surgo\celldefender\player\PlayerMovementNode.class
+META-INF\services\surgo.celldefender.common.contracts.INodePlugin
+META-INF\services\surgo.celldefender.common.nodes.INode
+surgo\celldefender\player\PlayerPlugin.class
+surgo\celldefender\player\PlayerMovementSystem.class
