@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="surgo.celldefender.player">
-    <module_version install_time="1583323073888" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1583844841475" last="true" origin="installer" specification_version="1.0">
         <file crc="2663449927" name="config/Modules/surgo-celldefender-player.xml"/>
-        <file crc="2907642760" name="modules/surgo-celldefender-player.jar"/>
+        <file crc="1374194743" name="modules/surgo-celldefender-player.jar"/>
     </module_version>
 </module>

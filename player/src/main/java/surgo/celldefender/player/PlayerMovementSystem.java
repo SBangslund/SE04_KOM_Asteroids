@@ -9,7 +9,6 @@ import surgo.celldefender.common.GameData;
 import surgo.celldefender.common.GameKeys;
 import surgo.celldefender.common.World;
 import surgo.celldefender.common.components.Moving;
-import surgo.celldefender.common.components.Position;
 import surgo.celldefender.common.components.Rotation;
 import surgo.celldefender.common.components.Velocity;
 import surgo.celldefender.common.contracts.INodeSystem;
@@ -24,7 +23,6 @@ public class PlayerMovementSystem implements INodeSystem {
     @Override
     public void process(GameData gamedata, World world) {
         for (PlayerMovementNode node : world.getNodes(PlayerMovementNode.class)) {
-            Position position = node.getComponent(Position.class);
             Velocity velocity = node.getComponent(Velocity.class);
             Rotation rotation = node.getComponent(Rotation.class);
             Moving moving = node.getComponent(Moving.class);

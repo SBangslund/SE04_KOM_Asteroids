@@ -10,7 +10,7 @@
     <name>demo-parent</name>
 
     <properties>
-        <netbeans.version>RELEASE90</netbeans.version>
+        <netbeans.version>RELEASE110</netbeans.version>
         <brandingToken>demo</brandingToken>
     </properties>
 
@@ -69,5 +69,9 @@
         <module>common</module>
         <module>player</module>
         <module>asteroid</module>
+        <module>projectile</module>
+        <module>silentupdater</module>
+        <module>weapon</module>
+        <module>Enemy</module>
     </modules>
 </project>

@@ -1,2 +1,6 @@
+META-INF\services\surgo.celldefender.common.contracts.INodeSystem
+surgo\celldefender\asteroid\AsteroidCollisionSystem.class
 META-INF\services\surgo.celldefender.common.contracts.INodePlugin
+META-INF\services\surgo.celldefender.common.nodes.INode
 surgo\celldefender\asteroid\AsteroidPlugin.class
+surgo\celldefender\asteroid\AsteroidCollisionNode.class

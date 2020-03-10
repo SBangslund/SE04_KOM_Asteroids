@@ -12,6 +12,10 @@ public class Velocity extends GameComponent {
     private float dx;
     private float dy;
     
+    public Velocity() {
+        this(0, 0);
+    }
+    
     public Velocity(float dx, float dy) {
         this.dx = dx;
         this.dy = dy;

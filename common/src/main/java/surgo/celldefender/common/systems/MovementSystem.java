@@ -7,6 +7,7 @@ package surgo.celldefender.common.systems;
 import org.openide.util.lookup.ServiceProvider;
 import surgo.celldefender.common.GameData;
 import surgo.celldefender.common.World;
+import surgo.celldefender.common.components.Enemy;
 import surgo.celldefender.common.components.Moving;
 import surgo.celldefender.common.components.Position;
 import surgo.celldefender.common.components.Velocity;

@@ -4,7 +4,7 @@ OpenIDE-Module-Localizing-Bundle: surgo/celldefender/core/Bundle.prope
  rties
 OpenIDE-Module-Specification-Version: 1.0
 OpenIDE-Module-Implementation-Version: 1.0
-OpenIDE-Module-Build-Version: 202003041157
+OpenIDE-Module-Build-Version: 202003101251
 OpenIDE-Module: surgo.celldefender.core
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
@@ -41,6 +41,6 @@ Maven-Class-Path: com.badlogicgames.gdx:gdx-platform:1.9.10:natives-de
  es.gdx:gdx-freetype-platform:1.9.10:natives-desktop com.badlogicgames
  .gdx:gdx:1.9.10
 OpenIDE-Module-Module-Dependencies: surgo.celldefender.common > 1.0, o
- rg.netbeans.api.annotations.common/1 > 1.29.1, org.openide.modules > 
- 7.50.1, org.openide.util.lookup > 8.35.1
+ rg.netbeans.api.annotations.common/1 > 1.31.1, org.openide.modules > 
+ 7.52.1, org.openide.util.lookup > 8.37.1
 

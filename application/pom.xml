@@ -51,6 +51,26 @@
             <artifactId>asteroid</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>weapon</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>projectile</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>Enemy</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+<!--        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>silentupdater</artifactId>
+            <version>${project.version}</version>
+        </dependency>-->
         <!-- To use Jelly Tools in your functional tests, add or replace with:
         <dependency>
             <groupId>org.netbeans.api</groupId>

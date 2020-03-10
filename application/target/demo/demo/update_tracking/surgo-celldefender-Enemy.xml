@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="surgo.celldefender.Enemy">
+    <module_version install_time="1583844841529" last="true" origin="installer" specification_version="1.0">
+        <file crc="3783973232" name="config/Modules/surgo-celldefender-Enemy.xml"/>
+        <file crc="3704635166" name="modules/surgo-celldefender-Enemy.jar"/>
+    </module_version>
+</module>

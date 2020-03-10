@@ -5,18 +5,21 @@
 package surgo.celldefender.common.nodes;
 
 import java.lang.reflect.InvocationTargetException;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import org.openide.util.Exceptions;
+import surgo.celldefender.common.Entity;
 import surgo.celldefender.common.components.GameComponent;
 
 /**
  *
  * @author Samuel Bangslund
  */
-public abstract class GameNode implements INode, Cloneable {
+public abstract class GameNode implements INode, Cloneable, Comparator<GameNode> {
 
     private Map<Class, GameComponent> components;
+    private Entity parentEntity;
     
     protected GameNode() {
         components = new HashMap<>();
@@ -55,6 +58,14 @@ public abstract class GameNode implements INode, Cloneable {
         return (T) components.get(c);
     }
     
+    public Entity getParentEntity() {
+        return parentEntity;
+    }
+    
+    public void setParentEntity(Entity parentEntity) {
+        this.parentEntity = parentEntity;
+    }
+    
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
@@ -74,5 +85,10 @@ public abstract class GameNode implements INode, Cloneable {
             Exceptions.printStackTrace(ex);
         }
         return node;
+    }
+
+    @Override
+    public int compare(GameNode arg0, GameNode arg1) {
+        return 0;
     }
 }

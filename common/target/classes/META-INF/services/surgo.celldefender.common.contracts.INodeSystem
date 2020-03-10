@@ -1,1 +1,3 @@
+surgo.celldefender.common.systems.CollisionSystem
 surgo.celldefender.common.systems.MovementSystem
+surgo.celldefender.common.systems.TimerSystem

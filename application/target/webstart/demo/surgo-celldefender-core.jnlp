@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE jnlp PUBLIC "-//Sun Microsystems, Inc//DTD JNLP Descriptor 6.0//EN" "http://java.sun.com/dtd/JNLP-6.0.dtd">
+<jnlp spec='1.0+' codebase='file:/D:/repos/SE04_KOM_Asteroids/application/target/webstart/demo/'>
+  <information>
+   <title>surgo.celldefender.core</title>
+   <vendor>NetBeans</vendor>
+   <description kind='one-line'>surgo.celldefender.core</description>
+   <description kind='short'>surgo.celldefender.core</description>
+  </information>
+<security><all-permissions/></security>
+  <resources>
+    <jar href='surgo-celldefender-core/surgo-celldefender-core.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-com-badlogicgames-gdx-gdx-platform-natives-desktop.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-com-badlogicgames-gdx-gdx-backend-lwjgl.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-org-lwjgl-lwjgl-lwjgl.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-org-lwjgl-lwjgl-lwjgl-platform-natives-windows.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-org-lwjgl-lwjgl-lwjgl-platform-natives-linux.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-org-lwjgl-lwjgl-lwjgl-platform-natives-osx.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-net-java-jinput-jinput.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-net-java-jutils-jutils.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-org-lwjgl-lwjgl-lwjgl_util.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-com-badlogicgames-jlayer-jlayer.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-org-jcraft-jorbis.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-com-badlogicgames-gdx-gdx-box2d.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-com-badlogicgames-gdx-gdx-box2d-platform-natives-desktop.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-com-badlogicgames-gdx-gdx-freetype.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-com-badlogicgames-gdx-gdx-freetype-platform-natives-desktop.jar'/>
+    <jar href='surgo-celldefender-core/ext-surgo.celldefender.core-com-badlogicgames-gdx-gdx.jar'/>
+  </resources>
+  <component-desc/>
+</jnlp>

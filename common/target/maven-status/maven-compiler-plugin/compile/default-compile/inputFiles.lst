@@ -1,24 +1,32 @@
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Position.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\Entity.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\GameData.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\interfaces\Drawable.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\contracts\INodePlugin.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\contracts\INodeSystem.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\nodes\INode.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\nodes\MovementNode.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Rotation.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Velocity.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\nodes\NodeList.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Life.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\CollisionBox.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\GameKeys.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\nodes\GameNode.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\GameComponent.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Player.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\World.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\contracts\IPostNodeSystem.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Asteroid.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Moving.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\Event.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Render.java
-C:\Users\sbang\OneDrive\SDU\Software Engineering\03 Courses\4. KOM (Komponent baseret)\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\systems\MovementSystem.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\contracts\IPostNodeSystem.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\systems\CollisionSystem.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Projectile.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\Event.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\contracts\INodeSystem.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\contracts\INodePlugin.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\nodes\GameNode.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Weapon.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Asteroid.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\GameData.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\nodes\MovementNode.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\nodes\TimerNode.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\nodes\INode.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\interfaces\Drawable.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Position.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\World.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\GameComponent.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\CollisionBox.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\systems\MovementSystem.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\Entity.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\GameKeys.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Life.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\systems\TimerSystem.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Enemy.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Timer.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Rotation.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Render.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\nodes\CollisionNode.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Velocity.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\nodes\NodeList.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Moving.java
+D:\repos\SE04_KOM_Asteroids\common\src\main\java\surgo\celldefender\common\components\Player.java

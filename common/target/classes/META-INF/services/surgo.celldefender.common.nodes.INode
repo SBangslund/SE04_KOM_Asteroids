@@ -1,1 +1,3 @@
+surgo.celldefender.common.nodes.CollisionNode
 surgo.celldefender.common.nodes.MovementNode
+surgo.celldefender.common.nodes.TimerNode

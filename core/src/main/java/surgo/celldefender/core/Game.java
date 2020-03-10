@@ -12,7 +12,6 @@ import org.openide.util.Lookup;
 import surgo.celldefender.common.GameData;
 import surgo.celldefender.common.World;
 import surgo.celldefender.common.contracts.*;
-import surgo.celldefender.common.nodes.GameNode;
 
 public class Game implements ApplicationListener {
 

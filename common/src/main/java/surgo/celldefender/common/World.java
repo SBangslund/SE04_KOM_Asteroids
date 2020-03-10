@@ -1,14 +1,13 @@
 package surgo.celldefender.common;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.stream.Collectors;
 import org.openide.util.Exceptions;
 import org.openide.util.Lookup;
 import surgo.celldefender.common.components.GameComponent;
@@ -23,6 +22,7 @@ import surgo.celldefender.common.nodes.NodeList;
 public class World {
 
     private final Map<String, Entity> entityMap = new ConcurrentHashMap<>();
+    private final Map<Entity, List<GameNode>> entityNodes = new HashMap<>();
     private final NodeList<GameNode> nodeTypes = new NodeList();
     private final Map<Class, List<GameNode>> allNodes = new HashMap<>();
     
@@ -48,11 +48,12 @@ public class World {
                     Exceptions.printStackTrace(ex);
                 }
             }
-        }        
+        }      
         return extractedNodes;
     }
     
-    private void distributeNodes(List<GameNode> nodeList) {
+    private void distributeNodes(List<GameNode> nodeList, Entity entity) {
+            entityNodes.put(entity, nodeList);
         for (GameNode node : nodeList) {
             List<GameNode> gameNodes = allNodes.get(node.getClass());
             if(gameNodes != null) {
@@ -62,20 +63,30 @@ public class World {
                 newGameNodes.add(node);
                 allNodes.put(node.getClass(), newGameNodes);
             }
+            node.setParentEntity(entity);
         }
     }
     
+    public <E extends GameNode> void sortListBy(Class listToSort, Comparator<E> comparator) {
+        List<E> retrievedList = (List<E>) allNodes.get(listToSort);
+        Collections.sort(retrievedList, comparator);
+    }
+        
     public String addEntity(Entity entity) {
         entityMap.put(entity.getID(), entity);
-        distributeNodes(extractNodes(entity.getComponents()));
+        distributeNodes(extractNodes(entity.getComponents()), entity);
         return entity.getID();
     }
 
-    public void removeEntity(String entityID) {
-        entityMap.remove(entityID);
-    }
-
     public void removeEntity(Entity entity) {
+        List<GameNode> entitiesNodes = entityNodes.get(entity);
+        if(entitiesNodes != null) {
+            for (GameNode entitiesNode : entitiesNodes) {
+                List<GameNode> relevant = allNodes.get(entitiesNode.getClass());
+                relevant.remove(entitiesNode);
+            }        
+            entityNodes.remove(entity); 
+        }
         entityMap.remove(entity.getID());
     }
     

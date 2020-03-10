@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Layer: surgo/celldefender/silentupdater/layer.xml
+OpenIDE-Module-Localizing-Bundle: surgo/celldefender/silentupdater/Bundle.properties
+OpenIDE-Module-Install: surgo/celldefender/silentupdater/UpdateActivator.class
+

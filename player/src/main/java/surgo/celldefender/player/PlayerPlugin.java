@@ -15,6 +15,7 @@ import surgo.celldefender.common.components.Position;
 import surgo.celldefender.common.components.Render;
 import surgo.celldefender.common.components.Rotation;
 import surgo.celldefender.common.components.Velocity;
+import surgo.celldefender.common.components.Weapon;
 import surgo.celldefender.common.contracts.INodePlugin;
 
 /**
@@ -32,21 +33,22 @@ public class PlayerPlugin implements INodePlugin {
         player.add(new CollisionBox(10f));
         player.add(new Moving(50f, 150f, 200f, 6f));
         player.add(new Player());
+        player.add(new Weapon(150));
         Rotation rotation = new Rotation((float) Math.PI / 2);
         player.add(rotation);
         player.add(new Render(new float[4], new float[4], rotation, (float[] shapex, float[] shapey, Rotation rot) -> {
             float radians = rot.getRadians();
-                shapex[0] = (float) (Math.cos(radians) * 8);
-                shapey[0] = (float) (Math.sin(radians) * 8);
+            shapex[0] = (float) (Math.cos(radians) * 8);
+            shapey[0] = (float) (Math.sin(radians) * 8);
 
-                shapex[1] = (float) (Math.cos(radians - 4 * 3.1415f / 5) * 8);
-                shapey[1] = (float) (Math.sin(radians - 4 * 3.1145f / 5) * 8);
+            shapex[1] = (float) (Math.cos(radians - 4 * 3.1415f / 5) * 8);
+            shapey[1] = (float) (Math.sin(radians - 4 * 3.1145f / 5) * 8);
 
-                shapex[2] = (float) (Math.cos(radians + 3.1415f) * 5);
-                shapey[2] = (float) (Math.sin(radians + 3.1415f) * 5);
+            shapex[2] = (float) (Math.cos(radians + 3.1415f) * 5);
+            shapey[2] = (float) (Math.sin(radians + 3.1415f) * 5);
 
-                shapex[3] = (float) (Math.cos(radians + 4 * 3.1415f / 5) * 8);
-                shapey[3] = (float) (Math.sin(radians + 4 * 3.1415f / 5) * 8);
+            shapex[3] = (float) (Math.cos(radians + 4 * 3.1415f / 5) * 8);
+            shapey[3] = (float) (Math.sin(radians + 4 * 3.1415f / 5) * 8);
         }));
         world.addEntity(player);
     }

@@ -3,7 +3,7 @@ OpenIDE-Module-Localizing-Bundle: surgo/celldefender/asteroid/Bundle.p
  roperties
 OpenIDE-Module-Specification-Version: 1.0
 OpenIDE-Module-Implementation-Version: 1.0
-OpenIDE-Module-Build-Version: 202003041157
+OpenIDE-Module-Build-Version: 202003101251
 OpenIDE-Module: surgo.celldefender.asteroid
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
@@ -12,5 +12,5 @@ OpenIDE-Module-Name: asteroid
 OpenIDE-Module-Short-Description: <undefined>
 OpenIDE-Module-Long-Description: <undefined>
 OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
- n/1 > 1.29.1, surgo.celldefender.common > 1.0
+ n/1 > 1.31.1, surgo.celldefender.common > 1.0
 
